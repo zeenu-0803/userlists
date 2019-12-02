@@ -1,0 +1,46 @@
+[
+	{
+		"id":"1",
+		"name": "Sunil Chhetri",
+		"born": "Secunderabad, India",
+		"position": "Forward",
+		"picturelink":"sunil_chetri.jpg"
+	},
+	{
+		"id":"2",
+		"name": "Baichung Bhutia",
+		"born": "Tinkitam, India",
+		"position": "Forward",
+		"picturelink":"baichung-bhutia.jpg"
+	},
+	{
+		"id":"3",
+		"name": "I.M.Vijayan",
+		"born": "Thrissur, India",
+		"position": "Defender, Midfielder",
+		"picturelink":"i-m-vijayan.jpg"
+	 },
+	 {
+		"id":"4",
+		"name": "V.P.Sathyan",
+		"born": "Kerala, India",
+		"position": "Striker",
+		"picturelink":"v-p-sathyan.jpg"
+	  },
+	  {
+		"id":"5",
+		"name": "Sandesh Jhingan",
+		"born": "Chandigarh, India",
+		"position": "Defender",
+		"picturelink":"sandesh-jhingan.jpg"
+	  },
+	  {
+		"id":"6",
+		"name": "Subrata Pal",
+		"born": "Sodepur, India",
+		"position": "Goalkeeper",
+		"picturelink":"subrata-pal.jpg"
+	  }
+]
+
+

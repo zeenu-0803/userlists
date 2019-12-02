@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+body{  
+  padding: 0 100px 100px;
+  background-color: #CDE;
+  font-family: "Pacifico";
+}
+*{box-sizing:border-box;}
+h1{
+  text-align: center;
+  padding: 50px;
+  font-size: 60px;
+  text-shadow: 0 2px 2px #3c77b3;
+  color:#428bca;
+}
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0; 
+  display:flex;
+  flex-direction:row; 
+  flex-wrap:wrap;
+  justify-content :center; 
+  align-items:center;
+  height:auto;
+}
+
+li{
+  background:#fff;
+  padding:1.5em;
+  margin:3.5em;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  position:relative;
+}
+li .gallery-name{
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  border-bottom: 2px solid #CDE;
+  color: #428bca;
+}
+img {
+  border-radius: 50%;
+}
+figure .img-gallery{
+	position:absolute;
+	top:-86px;
+	left:-32px;
+	background-color:#CDE;
+	border-radius:100px;
+	
+}
+h1 span{
+	margin:0;
+	padding:0;
+	animation: animate 4s linear infinite;
+}
+
+@keyframes animate{
+	0%,100%{
+		color:#fff;
+		filter:blur(2px);			
+		text-shadow: 0 0 10px #CDE;
+	}
+	5%,95%{
+		color:#428bca;
+		filter:blur(0px);
+		text-shadow:none;
+	}
+}
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  ul {
+    flex-direction: row;
+  }
+  li {
+    height: auto;
+    width: auto;
+  }
+  h1{
+	  font-size:30px;
+	  padding:40px 0px;
+  }
+  li .gallery-name{
+	  font-size:19px;
+  }
+  figure{
+	  width:100%;
+  }
+
+  img {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+  }
+}
+
+@media (max-aspect-ratio: 1/1) and (max-width: 768px) {
+	ul {
+		flex-direction: row;
+   }
+}
+
