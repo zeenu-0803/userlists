@@ -1,6 +1,6 @@
 import React from 'react'
 
-import UserList from './Components/UserList'
+import UserList from './components/UserList'
 
 const App = () => (<UserList />);
 

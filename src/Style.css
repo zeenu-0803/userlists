@@ -26,12 +26,13 @@ ul{
 
 li{
   background:#fff;
-  padding:1.5em;
+  padding: 0 1.5em;
   margin:3.5em;
   border-top-right-radius:10px;
   border-bottom-left-radius:10px;
   border-bottom-right-radius:10px;
   position:relative;
+  width: 180px;
 }
 li .gallery-name{
   height: 50px;
@@ -45,7 +46,7 @@ img {
 }
 figure .img-gallery{
 	position:absolute;
-	top:-86px;
+	top:-20px;
 	left:-32px;
 	background-color:#CDE;
 	border-radius:100px;
